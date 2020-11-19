@@ -262,7 +262,7 @@ if(Rider.Status == "In-Active"){
                                 </Media>
                               </Media>
                             </th>
-                            <td>{Rider.Name}</td>
+                            <td>{!Rider.Name ? ("Name") : Rider.Name}</td>
                             <td>
                               <Badge color="" className="">
                                 <i className="bg-warning" />
