@@ -479,8 +479,8 @@ if(Rider.Status == "In-Active"){
 
                    {this.state.modalRider?
      <div>
-<Modal isOpen={true} >
-        <ModalHeader >congratulations</ModalHeader>
+<Modal isOpen={true}   >
+        <ModalHeader><h4>Congratulations</h4></ModalHeader>
         <ModalBody>
        <div>
        <div >
