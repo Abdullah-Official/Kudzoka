@@ -127,9 +127,9 @@ getTempData =(VendorData) => {
     .then(response => {
       console.log(response);
       this.setState({
-        Vendors: response.data,
+        Vendors: response.data.slice(0,5),
+        
       });
-
 
     })
     .catch(err => {
